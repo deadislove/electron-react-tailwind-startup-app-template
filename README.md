@@ -10,6 +10,8 @@ Electron version: 33+
 
 React version: 18+
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F82YR41)
+
 # How to use it
 
 Step 1 Install npm packages
