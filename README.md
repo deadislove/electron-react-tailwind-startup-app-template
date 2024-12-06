@@ -293,7 +293,8 @@ devtool: source-map' // devtool can set source-map in the dev env. If the prod e
 
 > [!TIP]
 > You also can edit script in package.json
-> ```"start": "webpack && electron . --devtool soruce-map"
+>
+> ```"start": "webpack && electron . --devtool soruce-map"```
 
 - Step 5 Runs your app
 ```
@@ -302,6 +303,5 @@ npm start
 
 > [!TIP]
 > You can run webpack to bundle your react code
-> ```
-> npx webpack
-> ```
+>
+> ``` npx webpack```
