@@ -1,5 +1,7 @@
 # Electron + Rreact + TailwindCSS
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 > This project is based on the official implementation Electron tutorial. I also added the popular React and Redux packages. You will find out the react entry point is based on the index.html to implement it, and I use the dotenv library and the @redux/toolkit library to improve the redux ecology when the state is complex. In the security part, the project turns on the CSP, so you will find out the .env file has API URL and other values, but it has passed the ipcRender and through ipcMain to return the related value. When the electron app runs on the product environment, the ipcMain return value won't directly call or watch in the dev tool's console dashboard.
 
 #### Project related version information
@@ -7,6 +9,18 @@
 Electron version: 33+
 
 React version: 18+
+
+# How to use it
+
+Step 1 Install npm packages
+```
+npm install
+```
+
+Step 2 Run the project.
+```
+npm start
+```
 
 # Setup 
 
